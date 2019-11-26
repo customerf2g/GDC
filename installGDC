@@ -8,10 +8,10 @@
 #                                        
 #
 
-system('cd /var/log && sudo curl -LkO https://raw.githubusercontent.com/JamuraF2G/GDC/master/runlogcapture');
+system('cd /var/log && sudo curl -LkO https://raw.githubusercontent.com/customerf2g/GDC/master/runlogcapture');
 system('cd /var/log && sudo chmod +x *');
-system('cd /home/ran/Desktop/ && sudo curl -LkO https://raw.githubusercontent.com/JamuraF2G/GDC/master/GDC%20Mandatory%20Login.desktop');
+system('cd /home/ran/Desktop/ && sudo curl -LkO https://raw.githubusercontent.com/customerf2g/GDC/master/GDC%20Mandatory%20Login.desktop');
 system('cd /home/ran/Desktop/ && sudo chmod +x *');
-system('cd /usr/share/applications/ && sudo curl -LkO https://raw.githubusercontent.com/JamuraF2G/GDC/master/GDC%20Mandatory%20Login.desktop');
+system('cd /usr/share/applications/ && sudo curl -LkO https://raw.githubusercontent.com/customerf2g/GDC/master/GDC%20Mandatory%20Login.desktop');
 system('cd /usr/share/applications/ && sudo chmod +x *');
 exit(0);
