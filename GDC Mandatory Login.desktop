@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GDC Mandatory Login
+Comment=
+Exec=sudo /var/log/runlogcapture
+Icon=konqueror
+Path=/var/log
+Terminal=true
+StartupNotify=false
